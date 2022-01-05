@@ -4,7 +4,7 @@
   form.classList.add('form');
   container.append(form);
   let titleForm = document.createElement('p');
-  titleForm.textContent = "Количество карточек по горизонтали и вертикали:"
+  titleForm.textContent = "Количество карточек по горизонтали и вертикали:";
   titleForm.classList.add('title-form');
   form.append(titleForm);
   let input = document.createElement('input');

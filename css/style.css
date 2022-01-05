@@ -72,7 +72,8 @@ ul {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   border-radius: 5px;
 }
 
@@ -81,37 +82,37 @@ ul {
 }
 
 .goro {
-  background-image: url('/img/goro.jpg');
+  background-image: url('../img/goro.jpg');
   background-size: cover;
 }
 
 .kabal {
-  background-image: url('/img/kabal.jpg');
+  background-image: url('../img/kabal.jpg');
 }
 
 .kano {
-  background-image: url('/img/kano.jpg');
+  background-image: url('../img/kano.jpg');
 }
 
 .lu {
-  background-image: url('/img/lu.jpg');
+  background-image: url('../img/lu.jpg');
   background-size: cover;
 }
 
 .nub {
-  background-image: url('/img/nub.jpg');
+  background-image: url('../img/nub.jpg');
 }
 
 .scorpion {
-  background-image: url('/img/scorpion.jpg');
+  background-image: url('../img/scorpion.jpg');
 }
 
 .shao {
-  background-image: url('/img/shao.jpg');
+  background-image: url('../img/shao.jpg');
 }
 
 .zero {
-  background-image: url('/img/zero.jpg');
+  background-image: url('../img/zero.jpg');
   background-size: contain;
 }
 
